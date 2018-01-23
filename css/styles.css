@@ -4,6 +4,10 @@
     border-radius:0;
 }
 
+.navbar {
+    margin-bottom: 0;
+}
+
 
 .caption-text   {
 	
@@ -41,7 +45,7 @@
 }
 
 .carousel-inner{
-	margin-top:50px;
+	/*margin-top:50px;*/
 }
 
 .esacontent h3 {
@@ -71,13 +75,21 @@
         }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 550px) {
 	.caption-text h1 {
 		font-size: 20px;
 		margin-bottom: 0;
 	}
 	.caption-text p {
 		margin-top: 5px;
+	}
+
+	.btn {
+		margin-bottom: -30px;
+	}
+
+	.caption-text {
+		 transform: translateY(-10%);
 	}
 }
 
