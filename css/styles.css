@@ -133,6 +133,8 @@
   top: 50%;
   left: 50%;
   opacity: 1;
+  width: 301px;
+  height: 264px;
 }
 
 .content-details h3{
@@ -155,6 +157,13 @@
 .content-text {
 	font-size: 110% !important;
 }
+
+a, a:hover {
+	color: #fff;
+	text-decoration: none;
+}
+
+
 
 
 /********** Large devices only **********/
