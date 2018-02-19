@@ -209,13 +209,14 @@ video {
 .content:hover .content-details, .content:active .content-details{
   top: 50%;
   left: 50%;
-  opacity: 1;
+  opacity: 0.8;
   width: 301px;
   height: 264px;
+  background-color: #fff;
 }
 
 .content-details h3{
-  color: #fff;
+  color: #000;
   font-weight: 500;
   letter-spacing: 0.15em;
   margin-bottom: 0.5em;
@@ -223,7 +224,7 @@ video {
 }
 
 .content-details p{
-  color: #fff;
+  color: #000;
   font-size: 0.8em;
 }
 
@@ -236,13 +237,18 @@ video {
 }
 
 .content-title a, .content-title a:hover {
-	color: #fff;
+	color: #000;
 	text-decoration: none;
 }
 
 .content-title a:hover {
-	color: #a6a1a1;
+	color: #454545;
 
+}
+
+.content-details hr {
+	border: 0.3px solid black;
+	
 }
 
 
@@ -330,6 +336,7 @@ video {
   }
   .panel-footer section hr {
     width: 50%;
+	
   }
   /* End Footer */
 }
