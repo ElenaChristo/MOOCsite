@@ -302,6 +302,50 @@ video {
   color: white;
 }
 
+
+
+
+/*******About page*****************/
+
+
+.jumbotron {
+	background-image: url("../img/aboutbanner.jpg");
+	
+}
+
+.jumbotron .container {
+	height: 400px;
+}
+		
+
+.container > p {
+	line-height: 25px; 
+}
+
+.container > #esaImage {
+	padding-bottom: 30px;
+	padding-top: 30px;
+	width: 100%;
+	
+}
+
+#endP {
+	margin-bottom: 40px;
+	
+}
+
+#aboutTitle {
+	color: white;
+	text-shadow: 2px 2px 3px black; 
+}
+
+#aboutCaption {
+	color: white;
+	text-shadow: 2px 2px 3px black; 
+}
+
+
+
 /********** Media queries ***********/
 
 
@@ -319,11 +363,43 @@ video {
 
 }
 
+@media (max-width: 1200px) {
+	.jumbotron {
+	background-image: url("../img/aboutbanner1.jpg");
+}
+.jumbotron .container {
+	height: 390px;
+}
+
+}
+	
+	
+@media (max-width: 992px) {
+		.jumbotron {
+	background-image: url("../img/aboutbannermed.jpg");
+}
+.jumbotron .container {
+	height: 300px;
+}
+	
+}
+
 
 @media (max-width: 768px) { 
         .caption-text h1 {
         	font-size: 30px;
         }
+		
+		
+		/* About */
+		
+.jumbotron {
+	background-image: url("../img/aboutbanner2.jpg");
+}
+
+.jumbotron .container {
+	height: 253px;
+}
 
         /* FOOTER*/
 
@@ -366,6 +442,18 @@ video {
 	.overlay-text p {
 		font-size: 4vw;
 }
+
+/* About page */
+
+.jumbotron {
+	background-image: url("../img/aboutbanner3.jpg");
+}
+
+.jumbotron .container {
+	height: 253px;
+}
+
+
 
 
 
