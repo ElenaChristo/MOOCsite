@@ -16,6 +16,7 @@
     <![endif]-->
   </head>
   <body>
+ 
 
   <!-- Fixed navbar -->
     <div class="navbar navbar-default  navbar-custom" role="navigation">
@@ -32,12 +33,12 @@
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
             <li><a href="index.html">Home</a></li>  
-			<li class="active"><a href="video.html">Video page</a></li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">About <b class="caret"></b></a>
+			<li><a href="video.html">Video page</a></li>
+            <li class="dropdown active">
+              <a href="about.html" class="dropdown-toggle" data-toggle="dropdown">About <b class="caret"></b></a>
               <ul class="dropdown-menu">
                 <li><a href="about.html">About the course</a></li>
-                <li><a href="aboutcourse.html">How to use this course</a></li>
+                <li class="active"><a href="aboutcourse.html">How to use this course</a></li>
                 <li><a href="#">Course presenters</a></li>
               </ul>
             </li>    
@@ -51,32 +52,46 @@
         </div><!--/.nav-collapse -->
       </div>
     </div>
-
-	<!-- video -->
 	
-	<div class="video-container">
-	   <video autoplay loop muted playsinline>
-		     <source src="video/trailer.mp4" type="video/mp4">
-		     Your browser does not support the video tag.
-	   </video>
-     <div class="overlay-desc">
-        <h1>MONITORING CLIMATE<br> FROM SPACE</h1>
-                    <p>A MOOC FROM ESA</p>
-     </div>
+	
+	<div class="jumbotron-course">
+		<div class="container">
+			<h1 id="courseTitle">Using this course</h1>
+			<p id="courseCaption">
+				A brief guide to making the most of the course materials
+			<p>
+		</div>
 	</div>
+	
+	
+		<div class="container">
+	
+		<h3> How to use this course</h3>
+		<h4>Making the most of the course materials</h4><br>
+		<p>A MOOC is a 'massive open online course' which is made available, often free of charge, to a large number of 
+		people via the internet. MOOCs typically use a mixture of videos, text and quizzes, and sometimes provide a forum 
+		for discussion and interaction with fellow learners. This website offers a simplified version of the ESA Monitoring 
+		Climate From Space MOOC, enabling participants to access and download all of the core videos from the original 
+		course, and read short introductions to each topic. The videos are available here on a continuous basis, and 
+		can be enjoyed at your own pace.</p>
 
-	<!-- text ---->
+		<p>The course consists of five themed 'weeks', each of which is made up of several sub-topics. To start the course,
+		go to the Course overview page and begin working your way through each week.</p>
 
+		<p>You can watch the topic videos in your browser or download them using the links provided, and a transcript of each of the 
+		main videos is also provided. (In some cases, you may need to resize your bowser or scroll down to see the full frame. You 
+		can also view the video in a smaller window by clicking the symbol in the bottom right corner of the video).</p>		 
 
-    <div class="esacontent">
-      <h3>A MOOC on the powerful role of satellite ‘Earth<br>
-       observation’ (EO) technology in monitoring our<br>
-        changing climate and environment</h3>
-      <p>BROUGHT TO YOU BY ESA AND IMPERATIVE SPACE</p>
-    </div>
+		<p>Buttons are provided under each video to help you navigate back to the course overview page, or subsequent topics.</p>
 
+ 
 
-    <!-- menu titles -->
+		<p id="endP">Additional content, information and features from the original course may be added to this website in the future.</p>
+		
+		</div> <!--End of container-->
+		
+		
+		<!-- menu titles -->
 
     <div id="main-content" class="container">
     <div id="home-tiles" class="row">
@@ -95,7 +110,7 @@
         <div class="col-md-4 col-sm-6 col-xs-12">
 			<div class="content">
 			    <div class="content-overlay"></div>
-			    <img class="content-image" src="img/about1.jpg">
+			    <img class="content-image" src="img/about1.jpg"><span><p>How to use this course</p></span>
 			    <div class="content-details fadeIn-bottom">
                     <h3 class="content-title"><a href="about.html">About</a></h3><hr>
                     <p class="content-text">Read more about the aims of this course, and who it is supported by</p>
@@ -114,12 +129,18 @@
         </div>
 		
     </div> <!-- End of menu tiles -->
-  </div> <!-- End of main content -->
-
-
-   
-
-  <!--Footer-->
+		
+		
+	</div> <!--End of Container--->
+	
+	
+	
+	
+	
+	
+	
+	
+	<!--Footer-->
 
      <footer class="panel-footer">
     <div class="container">
@@ -152,3 +173,4 @@
     <script src="js/scripts"></script>
   </body>
 </html>
+
