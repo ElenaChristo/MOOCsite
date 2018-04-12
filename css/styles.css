@@ -334,9 +334,44 @@ video {
 	height: 500px;
 	
 }
+
+
+/* presenter page */
+
+.main-section {
+	  
+	  margin-left: 25%;
+	  margin-right: 25%;
+  }
+
+
+.presenter-content {
+  position: relative;
+  margin-bottom: 30px;
+  overflow: hidden;
 }
 
-/********** Media queries ***********/
+.jumbotron-presenters {
+	background-image: url("../img/presenterbanner.jpg");
+	height: 500px;
+	margin-bottom: 50px;
+}
+#presenterTitle {
+	color: white;
+	text-shadow: 2px 2px 3px black; 
+	margin-top:80px;
+	font-size: 450%;
+}
+
+#presenterCaption {
+	color: white;
+	text-shadow: 2px 2px 3px black; 
+	font-size: 150%
+
+}
+}
+
+/******************************************** Media queries *******************************************************************8*/
 
 
 
@@ -348,6 +383,8 @@ video {
 	padding-left: 50% !important;
 	padding-right: 30%;
   }
+  
+  
 
   #footerLinks {
    margin-top:30px;
@@ -368,6 +405,20 @@ video {
 	height: 490px;
 }
 
+.jumbotron-presenters {
+	background-image: url("../img/presenterbanner1.jpg");
+	height: 490px;
+}
+	
+
+/*presenters*/
+  
+  .main-section {
+	  
+	  margin-left: 10%;
+	  margin-right: 10%;
+  }
+
 }
 	
 	
@@ -383,6 +434,19 @@ video {
 	background-image: url("../img/coursebannermed.jpg");
 	height: 405px;
 }
+
+.jumbotron-presenters {
+	background-image: url("../img/presenterbannermed.jpg");
+	height: 405px;
+}
+
+.main-section {
+	  
+	  margin-left: 10%;
+	  margin-right: 10%;
+	  text-align: center;
+  }
+ 
 	
 }
 
@@ -405,6 +469,11 @@ video {
 
 .jumbotron-course {
 	background-image: url("../img/coursebanner2.jpg");
+	height: 312px;	
+}
+
+.jumbotron-presenters {
+	background-image: url("../img/presenterbanner2.jpg");
 	height: 312px;
 	
 }
@@ -433,6 +502,38 @@ video {
 	
   }
   /* End Footer */
+  
+  /*presenters*/
+  
+  .main-section {
+	  
+	  margin-left: 5%;
+	  margin-right: 5%;
+	
+  }
+  
+  .column-space {
+	margin-bottom: 50px !important;
+	
+}
+.presenter-content {
+    
+    margin-bottom: 0px;
+    
+}
+
+#presenterTitle {
+	font-size: 280%;
+	margin-top:50px;
+}
+
+#presenterCaption {
+
+	font-size: 150%
+   
+  }
+  
+  
 }
 
 @media (max-width: 550px) {
@@ -478,7 +579,33 @@ video {
 	
 }
 
+.jumbotron-presenters {
+	background-image: url("../img/presenterbanner3.jpg");
+	height: 312px;
+	
 }
+
+}
+
+@media (max-width: 358px) {
+	
+	.jumbotron-presenters {
+	background-image: url("../img/presenterbanner4.jpg");
+	height: 312px;
+	
+}
+
+#presenterTitle {
+	font-size: 200%;
+	margin-top:50px;
+}
+
+#presenterCaption {
+
+	font-size: 100%
+}
+
+
 
 
 
