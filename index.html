@@ -75,7 +75,8 @@
                     <h1>MONITORING CLIMATE<br> FROM SPACE</h1>
                     <p>A MOOC FROM ESA</p>
         </div>
-                    <a class="btn btn-primary" href="https://player.vimeo.com/external/220456903.hd.mp4?s=a74e913a1e6387f5cceac4bcdc604a2f01ced2b4&profile_id=119">Watch Trailer</a>
+                   <!-- <a class="btn btn-primary" href="https://player.vimeo.com/external/220456903.hd.mp4?s=a74e913a1e6387f5cceac4bcdc604a2f01ced2b4&profile_id=119">Watch Trailer</a> -->
+			<a class="btn btn-primary" id="video" video-url="https://vimeo.com/234759458">Watch Trailer</a>
       </div>
       <div class="item">
         <img src="img/slide2.jpg" alt="Earth" class="img-responsive visible-xl visible-lg">
@@ -106,6 +107,10 @@
       <span class="icon-next"></span></a>
 
     </div>
+	
+	
+	
+
 
 
 
@@ -190,6 +195,12 @@
    
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/scripts"></script>
+    <script src="js/scripts.js"></script>
+	
+	<script>
+            $(function(){
+                $("#video").videoPopup();
+            });
+    </script>
   </body>
 </html>
