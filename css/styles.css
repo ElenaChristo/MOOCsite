@@ -357,7 +357,7 @@ a:hover {
   }
 
 
-.presenter-content {
+.page-content {
   position: relative;
   margin-bottom: 30px;
   overflow: hidden;
@@ -368,14 +368,14 @@ a:hover {
 	height: 500px;
 	margin-bottom: 50px;
 }
-#presenterTitle {
+#pageTitle {
 	color: white;
 	text-shadow: 2px 2px 3px black; 
 	margin-top:80px;
 	font-size: 450%;
 }
 
-#presenterCaption {
+#pageCaption {
 	color: white;
 	text-shadow: 2px 2px 3px black; 
 	font-size: 150%
@@ -394,6 +394,11 @@ a:hover {
 	
 }
 
+.jumbotron-quizzes {
+	background-image: url("../img/quizbanner.jpg");
+	height: 500px;
+	margin-bottom: 50px;
+}
 
 }
 
@@ -561,18 +566,18 @@ a:hover {
 	margin-bottom: 50px !important;
 	
 }
-.presenter-content {
+.page-content {
     
     margin-bottom: 0px;
     
 }
 
-#presenterTitle {
+#pageTitle {
 	font-size: 280%;
 	margin-top:50px;
 }
 
-#presenterCaption {
+#pageCaption {
 
 	font-size: 150%
    
@@ -645,12 +650,12 @@ a:hover {
 	
 }
 
-#presenterTitle {
+#pageTitle {
 	font-size: 200%;
 	margin-top:50px;
 }
 
-#presenterCaption {
+#pageCaption {
 
 	font-size: 100%
 }
