@@ -20,7 +20,7 @@
 	
 }
 
-
+/*** Video page**/
 
 .video-container {
   position: relative;
@@ -87,11 +87,7 @@ video {
 }
 
 
-/********model video **********/
-
-
-
-
+/******* video popup**********/
 
 
 .videopopupjs{
@@ -527,7 +523,7 @@ a:hover {
 	margin-bottom: 50px;
 	
 }
-/**quizzes**************/
+/**quizzes*******
 
 .jumbotron-quizzes {
 	background-image: url("../img/quizbanner.jpg");
@@ -535,7 +531,7 @@ a:hover {
 	margin-bottom: 50px;
 }
 
-
+**********/
 }
 
 /******************************************** Media queries *******************************************************************8*/
